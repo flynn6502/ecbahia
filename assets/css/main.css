@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 ol, ul {
@@ -73,6 +74,33 @@ input, select, textarea {
 }
 
 /* Basic */
+
+	.logo{
+		width: 150px;
+	}
+
+	.reddetail{
+		width: 91%;
+		position: relative;
+		right: -450px;
+		top: 65px;
+		rotate: 45deg;
+        height: 5px;
+        background-color: #ff9999;
+	}
+
+	.bluedetail{
+		width: 89%;
+		position: relative;
+		right: -465px;
+		top: 55px;
+		rotate: 45deg;
+        height: 5px;
+        background-color: #99c2ff;
+	}
+	
+
+	
 
 	html {
 		box-sizing: border-box;
@@ -2917,7 +2945,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #ca3e39 5%, #3b6edb 30%, #ced1da);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
