@@ -2345,7 +2345,7 @@ input, select, textarea {
 		}
 
 		.icon.style5:before {
-			color: #4a87d3;
+			color: #aa1421;
 		}
 
 		.icon.style6:before {
@@ -2842,6 +2842,12 @@ input, select, textarea {
 
 /* Main */
 
+	#star{
+		color:red !important;
+	}
+
+
+
 	.main {
 		padding: 6em 0 4em 0 ;
 	}
@@ -2853,7 +2859,7 @@ input, select, textarea {
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
+			background-attachment: absolute;
 			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
 			background-size: auto,							cover;
 		}
@@ -2945,7 +2951,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #350202 25%, #871717 40%, #03174f);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #ce6a6a 15%, #871717 25%, #03174f);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
